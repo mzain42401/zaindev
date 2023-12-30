@@ -32,19 +32,20 @@ html {
 @media only screen and (max-width: 902px) {
     .bars{
         display: block;
+        cursor: pointer;
     }
     .mynavs{
         position: absolute;
         top: 87px;
 
-        width:50% ;
+        width:100% ;
         display: flex;
         background-color: white;
         box-shadow: 0px 5px 10px gray;
         height: max-content ;
          
         left: -100%;
-        /* justify-content: space-around; */
+        justify-content: center;
         justify-content: flex-start;
         flex-direction: column;
         padding: 20px 0px;
